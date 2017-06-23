@@ -1,0 +1,28 @@
+*Im Projekt verwendete Imports:
+    from checksumdir import dirhash
+    from Crypto.Cipher import AES
+    from Crypto.Random import get_random_bytes
+    from passlib.hash import pbkdf2_sha256
+    from tkinter import *
+    import datetime
+    import hashlib
+    import os.path
+    import pygame
+    import sqlite3
+
+*'./snipets' enthält Code welcher noch nicht zugeordnet werden kann
+*'./graphics' enthält sämtliche Projektgrafiken (Integritätscheck muss beim Programmstart durchgeführt werden)
+*'./1_login.py' - Loginsystem / Datenbank Anbindung
+*'./2_char_select.py' - Charakterauswahl
+*'./3_game.py' - PyGame Instanz
+
+Ziel:
+    2 Dateien:
+        *Programmcode
+        *Imports & Definitionen
+
+    Compiler:
+        *PyInstaller (?)
+
+Links:
+http://legrandin.github.io/pycryptodome/Doc/3.4/Crypto.Cipher.AES-module.html
